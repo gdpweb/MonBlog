@@ -3,7 +3,6 @@
 namespace Controller;
 
 /**
- *
  * @author BRIERE Stéphane <stephanebriere@gdpweb.fr>
  */
 use \Router\Request;
@@ -13,6 +12,7 @@ use \Entity\User;
 use \Blog\Helpers\SessionHelper;
 
 class FrontendController extends Controller
+
 {
 
     /**
