@@ -31,3 +31,5 @@ define('MAIL_AUTEUR', 'stephanebriere@gdpweb.fr');
 define('MAIL_FROM', 'noreply@gdpweb.fr');
 
 define('MAIL_LOGO', 'http://blog.gdpweb.fr/Web/img/logo.png');
+
+//dev
