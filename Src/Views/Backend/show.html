@@ -32,10 +32,10 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="form-group pull-right">
-                                    <a href="/admin/publier-{{commentNotValid.id}}.html?id_post={{post.id}}" class="btn btn-success">
+                                    <a href="/admin/publier-{{commentNotValid.id}}.html?idPost={{post.id}}" class="btn btn-success">
                                         <span class="fa fa-check"></span> Publier</a>
                                     </button>
-                                    <a href="/admin/Comment-{{commentNotValid.id}}.html?id_post={{post.id}}" class="btn btn-danger">
+                                    <a href="/admin/Comment-{{commentNotValid.id}}.html?idPost={{post.id}}" class="btn btn-danger">
                                         <span class="fa fa-times"></span> Supprimer</a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                                     <button class="btn btn-info">
                                         <span class="fa fa-check"></span> Publié le {{commentValid.dateAjout|date('d-m-Y à  H:i:s' )}}
                                     </button>
-                                    <a href="/admin/deleteComment-{{commentValid.id}}.html?id_post={{ post.id}}" class="btn btn-danger">
+                                    <a href="/admin/deleteComment-{{commentValid.id}}.html?idPost={{ post.id}}" class="btn btn-danger">
                                         <span class="fa fa-times"></span></a>
 
                                 </div>
